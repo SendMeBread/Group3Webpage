@@ -1,11 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+
 html {
     background-color: #000000;
 }
 body {
-    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    position: relative;
+    isolation: isolate;
+    color: #00FFFF;
+    font-family: "Rubik Puddles", system-ui;
+    font-size: 1.25em;
+}
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
     background-image: url("Assets/Images/WombatBG.jpg");
     background-size: cover;
     background-position: center;
+    filter: url(#wavy-ripple);
+}
+h1 {
+    color: #ba730f;
+    font-family: "Frijole", system-ui;
+    font-size: 2em;
+}
+h2 {
+    color: #62ec72;
+    font-family: "Frijole", system-ui;
+    font-size: 1.5em;
+}
 
-    filter: url(#wavy-ripple)
+.frijole-regular {
+  font-family: "Frijole", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rubik-puddles-regular {
+  font-family: "Rubik Puddles", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
