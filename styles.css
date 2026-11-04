@@ -1,0 +1,11 @@
+html {
+    background-color: #000000;
+}
+body {
+    height: 100%;
+    background-image: url("Assets/Images/WombatBG.jpg");
+    background-size: cover;
+    background-position: center;
+
+    filter: url(#wavy-ripple)
+}
