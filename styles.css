@@ -12,7 +12,6 @@ body {
     isolation: isolate;
     color: #00FFFF;
     font-family: "Rubik Puddles", system-ui;
-    font-size: 1.25em;
 }
 body::before {
     content: "";
@@ -34,7 +33,9 @@ h2 {
     font-family: "Frijole", system-ui;
     font-size: 1.5em;
 }
-
+p {
+    font-size: 1.25em;
+}
 .frijole-regular {
   font-family: "Frijole", system-ui;
   font-weight: 400;
