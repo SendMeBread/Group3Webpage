@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
 
 html {
     background-color: #000000;
@@ -27,6 +28,7 @@ h1 {
     color: #ba730f;
     font-family: "Frijole", system-ui;
     font-size: 2em;
+    text-align: center;
 }
 h2 {
     color: #62ec72;
@@ -36,14 +38,42 @@ h2 {
 p {
     font-size: 1.25em;
 }
+ul {
+    font-family: "Asimovian", sans-serif;
+    list-style-type: circle;
+}
+ul ul {
+    list-style-type: square;
+}
+ul ul ul {
+    list-style-type: disc;
+}
+ol {
+    font-family: "Asimovian", sans-serif;
+    list-style-type: upper-roman;
+}
+ol ol {
+    list-style-type: lower-roman;
+}
+ol ol ol {
+    list-style-type: upper-alpha;
+}
+ol ol ol ol {
+    list-style-type: decimal-leading-zero;
+}
+
 .frijole-regular {
   font-family: "Frijole", system-ui;
   font-weight: 400;
   font-style: normal;
 }
-
 .rubik-puddles-regular {
   font-family: "Rubik Puddles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.asimovian-regular {
+  font-family: "Asimovian", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
