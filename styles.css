@@ -33,6 +33,7 @@ h1 {
 h2 {
     color: #62ec72;
     font-family: "Frijole", system-ui;
+    text-align: center;
     font-size: 1.5em;
 }
 p {
