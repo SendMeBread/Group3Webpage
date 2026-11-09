@@ -63,6 +63,12 @@ ol ol ol ol {
     list-style-type: decimal-leading-zero;
 }
 
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .frijole-regular {
   font-family: "Frijole", system-ui;
   font-weight: 400;
