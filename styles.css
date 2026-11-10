@@ -63,18 +63,17 @@ ol ol ol {
 ol ol ol ol {
     list-style-type: decimal-leading-zero;
 }
-
-iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 audio {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img P{
     display: block;
     margin-left: auto;
     margin-right: auto;
