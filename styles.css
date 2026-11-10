@@ -11,8 +11,9 @@ body {
     margin: 0;
     position: relative;
     isolation: isolate;
-    color: #00FFFF;
+    color: #30bb17;
     font-family: "Rubik Puddles", system-ui;
+    text-shadow:      -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 body::before {
     content: "";
@@ -72,6 +73,10 @@ audio {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+a {
+    color:#d3aa75;
+    text-decoration: underline;
 }
 .frijole-regular {
   font-family: "Frijole", system-ui;
